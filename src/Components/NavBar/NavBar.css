@@ -1,0 +1,22 @@
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 7rem;
+  background-color: rgba(0, 0, 0, 0.763);
+}
+
+.navLinks a {
+  font-size: 4rem;
+  color: whitesmoke;
+  position: relative;
+}
+
+.navLinks a span {
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  color: red;
+  transform: translateY(-50%);
+  left: 30%;
+}
